@@ -1,2 +1,2 @@
 # java-tutorial
-Java 教程1
+Java 教程2
