@@ -16,16 +16,44 @@
   <script>
     window.$docsify = {
       name: 'Java 文档',
+      onlyCover: true,
+      coverpage: true,
       loadSidebar: true,
+      loadNavbar: true,
+      mergeNavbar: true,
       copyCode: {
-        buttonText : '复制',
-        errorText : '复制失败',
-        successText: '复制完成'
+        buttonText: {
+          '/': 'Copy',
+        },
+        errorText: {
+          '/': 'Error',
+        },
+        successText: {
+          '/': 'Copied',
+        },
       }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- plugins -->
+  <!-- Support docsify sidebar catalog expand and collapse -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!-- Add a simple Click to copy button to all preformatted code blocks to effortlessly allow users to copy example code from your docs -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  
+  <!-- code highlight -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-csharp.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-properties.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-xml-doc.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
 </body>
 
 </html>
