@@ -23,3 +23,8 @@
 
 - Spring Boot
   - [自动配置](spring-boot/auto-config.md)
+  - [缓存 Cache](spring-boot/cache.md)
+  - [异步 Async](spring-boot/async.md)
+  - [重试 Retry](spring-boot/retry.md)
+  - [事件 Event](spring-boot/event.md)
+  
